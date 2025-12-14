@@ -1,4 +1,13 @@
 # Byte-compiled / optimized / DLL files
+myenv
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.pyc
+bird_or_not/
 __pycache__/
 *.py[codz]
 *$py.class
