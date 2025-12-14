@@ -1,0 +1,6 @@
+fastai
+jupyter
+ipykernel
+pandas
+scikit-learn
+ddgs
