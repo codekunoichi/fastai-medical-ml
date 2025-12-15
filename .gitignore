@@ -8,7 +8,9 @@ myenv
 *.bmp
 *.tiff
 *.pyc
+*.pkl
 bird_or_not/
+bears/
 __pycache__/
 *.py[codz]
 *$py.class
