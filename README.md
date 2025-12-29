@@ -8,6 +8,34 @@ The work intentionally emphasizes practical healthcare scenarios such as risk pr
 
 This repository serves as a learning gym for building intuition and technical skill in applied machine learning, with a long-term focus on ambulatory healthcare domains such as chronic disease management, patient access, and revenue cycle operations.
 
+## Current Notebooks
+
+The repository currently includes the following learning notebooks:
+
+- **00_fastai_sanity_check.ipynb** - Environment verification and fastai installation check
+- **00-is-it-a-bird-creating-a-model-from-your-own-data_self_leraning_copy_to_experimentwith.ipynb** - Bird image classifier using DuckDuckGo search for data collection (fastai Chapters 1-2)
+- **00-bear-detector-fastai-chap-1-and-2.ipynb** - Bear species classifier (grizzly, black, teddy) demonstrating end-to-end image classification workflow
+- **01-tabular_data_tutorial.ipynb** - Introduction to tabular data analysis with fastai
+- **02-chap-4-notes.ipynb** - MNIST digit classification (3s vs 7s) exploring tensors, distance metrics, and baseline models (fastai Chapter 4)
+
+## Learning Progress
+
+This repository follows the fastai course and book, with notebooks covering:
+
+**Chapters 1-2: Computer Vision Fundamentals**
+- Image classification using transfer learning
+- Data collection with DuckDuckGo search
+- Training models with fastai DataLoaders and Learners
+- Model export and deployment basics
+
+**Chapter 4: MNIST Basics**
+- Understanding tensors and tensor operations
+- Computing distance metrics (L1/MAE, L2/RMSE)
+- Building baseline classifiers from scratch
+- Broadcasting and tensor broadcasting rules
+
+**Next up:** Continuing with more fastai chapters, gradually incorporating healthcare-specific datasets and scenarios.
+
 ## Setup
 
 This project uses Python 3.12 and a local virtual environment.
@@ -45,15 +73,17 @@ Example output on my machine:
 
 `/Users/rumpagiri/Projects/fastai-medical-ml/myenv/bin/python`
 
-3. Create requirements.txt
+3. Install dependencies
 
-Start with a minimal dependency set:
+The project uses the following dependencies:
 ```
-fastai
-jupyter
-ipykernel
-pandas
-scikit-learn
+fastai       # Core ML framework
+jupyter      # Notebook environment
+ipykernel    # Jupyter kernel support
+pandas       # Data manipulation
+scikit-learn # Traditional ML utilities
+ddgs         # DuckDuckGo search for data collection
+fastbook    # fastai course materials and utilities
 ```
 
 
