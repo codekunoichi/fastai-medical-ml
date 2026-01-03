@@ -5,3 +5,9 @@ pandas
 scikit-learn
 ddgs
 fastbook
+transformers
+datasets
+accelerate
+protobuf
+sentencepiece
+tokenizers
